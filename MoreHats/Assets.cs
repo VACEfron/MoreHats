@@ -16,9 +16,7 @@ namespace MoreHats
         }
 
         public static Object LoadAsset(string name)
-        {
-            return AssetBundle.LoadAsset(name);
-        }
+            => AssetBundle.LoadAsset(name);
     }
 }
 
