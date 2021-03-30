@@ -26,7 +26,7 @@ namespace MoreHats
         
         private static bool _customHatsLoaded = false;
 
-        [HarmonyPatch(typeof(PlayerControl), nameof(PlayerControl.SetHat))]
+        [HarmonyPatch(typeof(HatManager), nameof(HatManager.GetHatById))]
         public static class AddCustomHats
         {
             public static void Prefix(PlayerControl __instance)
