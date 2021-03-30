@@ -10,7 +10,7 @@ This is my own implementation of custom hats in Among Us, serving as practice an
 # Installation
 | Version | Link | All-in-one |
 |-|-|-|
-|  1.0.0 | [Download](https://github.com/VACEfron/MoreHats/releases/download/v1.0.0/MoreHats-2021.3.5s.dll) |
+|  1.0.0 | [Download](https://github.com/VACEfron/MoreHats/releases/download/v1.0.0/MoreHats-2021.3.5s.dll) | [Download](https://github.com/VACEfron/MoreHats/releases/download/v1.0.0/MoreHats-v1.0.0.zip) |
 
 ## Manual
 1) Install BepInEx. Guide [here](https://docs.reactor.gg/docs/basic/install_bepinex).
