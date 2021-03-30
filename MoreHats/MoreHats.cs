@@ -58,18 +58,5 @@ namespace MoreHats
                 };
             }
         }
-
-        [HarmonyPatch(typeof(GameData), nameof(GameData.AddPlayer))]
-        public static class ReEquipHats
-        {
-            public static void Postfix(GameData __instance)
-            {
-                foreach (var player in PlayerControl.AllPlayerControls)
-                {
-                    var hat = player.HatRenderer.Hat;
-                    player.RpcSetHat(HatManager.Instance.GetIdFromHat(hat));
-                }
-            }
-        }
     }
 }
