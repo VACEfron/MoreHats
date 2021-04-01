@@ -35,7 +35,7 @@ namespace MoreHats
                 {                    
                     var allHats = HatManager.Instance.AllHats;                    
 
-                    var customHatNames = new[] { "Kaisar", "4head", "Dash", "Safari", "VACEfron", "xelA", "Jamilla", "Tato", "Jos" };
+                    var customHatNames = new[] { "Kaisar", "4head", "Dash", "Safari", "VACEfron", "xelA", "Jamilla", "Tato", "Jos", "Flub" };
 
                     foreach (var hatName in customHatNames)
                         allHats.Add(CreateHat(GetSprite(hatName)));
